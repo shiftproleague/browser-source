@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Admin</title>
+  </head>
+  <body style="color: black; background-color: white;">
+
+    <div id="match">
+      <div id="blue">
+        <span>Name: <input id="name" class="name" placeholder="Blue" maxlength="24" /><span>
+        <span>Score:
+          <select id="score" class="score">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </span>
+      </div>
+
+      <div id="orange">
+        <span>Name: <input id="name" class="name" placeholder="Orange" maxlength="24" /><span>
+        <span>Score:
+          <select id="score" class="score">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </span>
+      </div>
+
+      <div id="meta">
+        <select id="round">
+          <option value="R1">Round 1</option>
+          <option value="R2">Round 2</option>
+          <option value="R3">Round 3</option>
+          <option value="R4">Round 4</option>
+          <option value="R5">Round 5</option>
+          <option value="QF">Quarterfinals</option>
+          <option value="SF">Semifinals</option>
+          <option value="GF">Finals</option>
+        </select>
+
+        <select id="bestOf">
+          <option value="3">3</option>
+          <option value="5">5</option>
+          <option value="7">7</option>
+        </select>
+      </div>
+
+    </div>
+
+    <iframe class="preview" src="/scoreboard"></iframe>
+
+    <div id="caster">
+      <span>Left: <input id="left" placeholder="Left" maxlength="14" /><span>
+      <span>Right: <input id="right" placeholder="Right" maxlength="14" /><span>
+    </div>
+
+    <iframe class="preview" src="/caster"></iframe>
+
+    <!--<iframe class="preview" src="/wait"></iframe>-->
+
+    <footer>
+      <link rel="stylesheet" type="text/css" href="/assets/css/admin.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="/assets/js/admin.js" type="text/javascript"></script>
+    </footer>
+  </body>
+</html>

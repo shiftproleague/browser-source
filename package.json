@@ -1,0 +1,28 @@
+{
+  "name": "shift-clr",
+  "version": "1.0.0",
+  "description": "Web Browser Overlays",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shift",
+    "shiftproleague",
+    "CLR",
+    "browser-overlays"
+  ],
+  "author": "Josh Willis",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "bootstrap": "^4.0.0-alpha.6",
+    "express": "^4.10.2",
+    "socket.io": "^1.7.1"
+  },
+  "engines": {
+    "node": "0.12.5",
+    "npm": "4.0.3"
+  }
+}

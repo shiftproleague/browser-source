@@ -1,0 +1,49 @@
+@import url("/assets/css/main.css");
+
+.scoreboard-back {
+  z-index: -1;
+}
+
+.scoreboard-front {
+  z-index: 2;
+}
+
+.score {
+  z-index: 1;
+}
+
+#blueName {
+  text-align: center;
+  position: fixed;
+  left: 25%;
+  top: 1%;
+  z-index: 2;
+  width: 15%;
+}
+
+#orangeName {
+  text-align: center;
+  position: fixed;
+  left: 60%;
+  top: 1%;
+  z-index: 2;
+  width: 15%;
+}
+
+#blueScore {
+  z-index: 1;
+}
+
+#orangeScore {
+  z-index: 1;
+}
+
+#series {
+  text-align: center;
+  position: fixed;
+  left: 45%;
+  top: 8%;
+  z-index: 1;
+  width: 10%;
+  font-size: 2.5vmin;
+}

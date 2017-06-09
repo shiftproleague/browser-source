@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Scoreboard</title>
+  </head>
+
+  <body>
+
+    <img class="overlay scoreboard-front" src="/assets/img/Scoreboard-front.png" />
+    <img class="overlay scoreboard-back" src="/assets/img/Scoreboard-back.png" />
+
+    <div id="blueScore"></div>
+    <div id="orangeScore"></div>
+
+    <span id="blueName"></span>
+    <span id="orangeName"></span>
+
+    <span id="series">
+      <span id="round">R1</span> - Bo<span id="bestOf">3</span>
+    </span>
+
+    <!--<img class="logo" src="/assets/img/icon_blue.png" />-->
+
+    <footer>
+      <link rel="stylesheet" type="text/css" href="/assets/css/scoreboard.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="/assets/js/scoreboard.js" type="text/javascript"></script>
+    </footer>
+
+  </body>
+</html>
