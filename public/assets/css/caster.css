@@ -2,20 +2,20 @@
 
 #leftCaster {
   position: absolute;
-  top: 69.75%;
+  top: 70.5%;
   left: 10%;
   width: 31.5%;
   font-family: 'Quantify';
-  font-size: 3.75vmin;
+  font-size: 3.25vmin;
   text-align: center;
 }
 
 #rightCaster {
   position: absolute;
-  top: 69.75%;
+  top: 70.5%;
   right: 10%;
   width: 31.5%;
   font-family: 'Quantify';
-  font-size: 3.75vmin;
+  font-size: 3.25vmin;
   text-align: center;
 }
