@@ -1,49 +1,50 @@
 @import url("/assets/css/main.css");
 
-.scoreboard-back {
-  z-index: -1;
-}
-
-.scoreboard-front {
-  z-index: 2;
-}
-
-.score {
-  z-index: 1;
-}
-
 #blueName {
   text-align: center;
   position: fixed;
-  left: 25%;
-  top: 1%;
+  left: 8.5%;
+  top: 9.5%;
   z-index: 2;
-  width: 15%;
+  width: 11.5%;
 }
 
 #orangeName {
   text-align: center;
   position: fixed;
-  left: 60%;
-  top: 1%;
+  left: 8.5%;
+  top: 19.5%;
   z-index: 2;
-  width: 15%;
+  width: 11.5%;
 }
 
 #blueScore {
+  color: black;
+  position: fixed;
+  top: 9.5%;
+  left: 4.5%;
+  width: 3%;
+  text-align: center;
   z-index: 1;
 }
 
 #orangeScore {
+  color: black;
+  position: fixed;
+  top: 19.5%;
+  left: 4.5%;
+  width: 3%;
+  text-align: center;
   z-index: 1;
 }
 
 #series {
+  color: black;
   text-align: center;
   position: fixed;
-  left: 45.5%;
-  top: 8%;
+  left: 8.5%;
+  top: 14.5%;
   z-index: 1;
-  width: 10%;
-  font-size: 2.5vmin;
+  width: 11.5%;
+  font-size: 3vmin;
 }

@@ -17,7 +17,6 @@ var match = {
     'name': '',
     'score': '0'
   },
-  'round': 'R1',
   'bestOf': '3'
 }
 
@@ -77,7 +76,6 @@ socket.on('scoreboard', function(data){
   match['orange']['name'] = data['orange']['name'];
   match['orange']['score'] = data['orange']['score'];
 
-  match['round'] = data['round'];
   match['bestOf'] = data['bestOf'];
 
   console.log(match);
@@ -88,7 +86,6 @@ socket.on('scoreboard', function(data){
   $('#orange .name').val(match['orange']['name']);
   $('#orange .score').val(match['orange']['score']);
 
-  $('#round').val(match['round']);
   $('#bestOf').val(match['bestOf']);
 });
 
@@ -112,12 +109,6 @@ $('#orange .name').on('change', function() {
 
 $('#orange .score').on('change', function() {
   match['orange']['score'] = $('#orange .score').val();
-  socket.emit('scoreboard', match);
-  console.log(match);
-});
-
-$('#round').on('change', function(){
-  match['round'] = $('#round').val();
   socket.emit('scoreboard', match);
   console.log(match);
 });

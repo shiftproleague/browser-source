@@ -1,13 +1,18 @@
 @font-face {
-  font-family: Molot;
-  src: url('../fonts/Molot.otf');
+  font-family: Kimberley;
+  src: url('../fonts/Kimberley.otf');
+}
+
+@font-face {
+  font-family: Quantify;
+  src: url('../fonts/Quantify.ttf');
 }
 
 body {
   width: 100%;
   height: 100%;
   margin: 0px;
-  font-family: 'Molot';
+   font-family: 'Kimberley'; 
   font-size: 3.5vmin;
   color: white;
 }

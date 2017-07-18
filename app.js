@@ -5,24 +5,16 @@ var io = require('socket.io')(http);
 
 app.use(express.static(__dirname + '/public'));
 
-app.get('/after', function(req, res){
-  res.sendFile(__dirname + '/after.html');
-});
-
 app.get('/caster', function(req, res){
   res.sendFile(__dirname + '/caster.html');
 });
 
-app.get('/casual', function(req, res){
-  res.sendFile(__dirname + '/casual.html');
+app.get('/pip', function(req, res){
+  res.sendFile(__dirname + '/pip.html');
 });
 
 app.get('/scoreboard', function(req, res){
   res.sendFile(__dirname + '/scoreboard.html');
-});
-
-app.get('/wait', function(req, res){
-  res.sendFile(__dirname + '/wait.html');
 });
 
 app.get('/', function(req, res){
