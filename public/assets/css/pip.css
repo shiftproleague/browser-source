@@ -3,19 +3,19 @@
 #leftCaster {
   position: absolute;
   top: 45%;
-  right: 4%;
+  right: 4.5%;
   width: 15%;
   font-family: 'Quantify';
   font-size: 3.25vmin;
-  text-align: center;
+  text-align: right;
 }
 
 #rightCaster {
   position: absolute;
   top: 82%;
-  right: 4%;
+  right: 4.5%;
   width: 15%;
   font-family: 'Quantify';
   font-size: 3.25vmin;
-  text-align: center;
+  text-align: right;
 }
