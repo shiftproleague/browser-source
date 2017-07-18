@@ -5,7 +5,6 @@
   position: fixed;
   left: 8.5%;
   top: 9.5%;
-  z-index: 2;
   width: 11.5%;
 }
 
@@ -14,7 +13,6 @@
   position: fixed;
   left: 8.5%;
   top: 19.5%;
-  z-index: 2;
   width: 11.5%;
 }
 
@@ -25,7 +23,6 @@
   left: 4.5%;
   width: 3%;
   text-align: center;
-  z-index: 1;
 }
 
 #orangeScore {
@@ -35,7 +32,6 @@
   left: 4.5%;
   width: 3%;
   text-align: center;
-  z-index: 1;
 }
 
 #series {
@@ -43,8 +39,7 @@
   text-align: center;
   position: fixed;
   left: 8.5%;
-  top: 14.5%;
-  z-index: 1;
+  top: 15%;
   width: 11.5%;
-  font-size: 2.75vmin;
+  font-size: 2.25vmin;
 }
